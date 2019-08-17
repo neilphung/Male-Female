@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDA7D2152306D64D00C31733 /* ExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7D2142306D64D00C31733 /* ExplainViewController.swift */; };
+		BDA7D21A2306E41000C31733 /* sai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA7D2192306E41000C31733 /* sai.mp3 */; };
+		BDA7D21C2306E43500C31733 /* dung.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA7D21B2306E43500C31733 /* dung.mp3 */; };
+		BDA7D2202306E49700C31733 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7D21F2306E49700C31733 /* Sound.swift */; };
 		BDBD07EC230698EB00A11037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD07EB230698EB00A11037 /* AppDelegate.swift */; };
 		BDBD07EE230698EB00A11037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD07ED230698EB00A11037 /* ViewController.swift */; };
 		BDBD07F1230698EB00A11037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBD07EF230698EB00A11037 /* Main.storyboard */; };
 		BDBD07F3230698ED00A11037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD07F2230698ED00A11037 /* Assets.xcassets */; };
 		BDBD07F6230698ED00A11037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBD07F4230698ED00A11037 /* LaunchScreen.storyboard */; };
+		BDBD08032306A16900A11037 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD08022306A16900A11037 /* Question.swift */; };
+		BDBD08052306A3C400A11037 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD08042306A3C400A11037 /* QuestionBank.swift */; };
+		BDBD080B2306B8D400A11037 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDBD08092306B8D400A11037 /* ProgressHUD.bundle */; };
+		BDBD080C2306B8D400A11037 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBD080A2306B8D400A11037 /* ProgressHUD.m */; };
+		BDBD080E2306BD5900A11037 /* Explain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD080D2306BD5900A11037 /* Explain.swift */; };
+		BDBD08102306BE2500A11037 /* ExplainBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD080F2306BE2500A11037 /* ExplainBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDA7D2142306D64D00C31733 /* ExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainViewController.swift; sourceTree = "<group>"; };
+		BDA7D2192306E41000C31733 /* sai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sai.mp3; sourceTree = "<group>"; };
+		BDA7D21B2306E43500C31733 /* dung.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dung.mp3; sourceTree = "<group>"; };
+		BDA7D21F2306E49700C31733 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		BDBD07E8230698EB00A11037 /* Male&Female.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Male&Female.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD07EB230698EB00A11037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBD07ED230698EB00A11037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,14 @@
 		BDBD07F2230698ED00A11037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBD07F5230698ED00A11037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBD07F7230698ED00A11037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBD08022306A16900A11037 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		BDBD08042306A3C400A11037 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		BDBD08072306B8D300A11037 /* Male&Female-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Male&Female-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDBD08082306B8D400A11037 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		BDBD08092306B8D400A11037 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		BDBD080A2306B8D400A11037 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		BDBD080D2306BD5900A11037 /* Explain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explain.swift; sourceTree = "<group>"; };
+		BDBD080F2306BE2500A11037 /* ExplainBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDA7D2162306DF9F00C31733 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA7D2192306E41000C31733 /* sai.mp3 */,
+				BDA7D21B2306E43500C31733 /* dung.mp3 */,
+			);
+			name = "Sound Files";
+			path = View;
+			sourceTree = "<group>";
+		};
 		BDBD07DF230698EB00A11037 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +86,57 @@
 		BDBD07EA230698EB00A11037 /* Male&Female */ = {
 			isa = PBXGroup;
 			children = (
-				BDBD07EB230698EB00A11037 /* AppDelegate.swift */,
-				BDBD07ED230698EB00A11037 /* ViewController.swift */,
-				BDBD07EF230698EB00A11037 /* Main.storyboard */,
-				BDBD07F2230698ED00A11037 /* Assets.xcassets */,
-				BDBD07F4230698ED00A11037 /* LaunchScreen.storyboard */,
-				BDBD07F7230698ED00A11037 /* Info.plist */,
+				BDBD080123069D2D00A11037 /* Model */,
+				BDBD07FF23069D1500A11037 /* Controller */,
+				BDBD080023069D2400A11037 /* View */,
+				BDBD08062306B89C00A11037 /* Supporting Files */,
 			);
 			path = "Male&Female";
+			sourceTree = "<group>";
+		};
+		BDBD07FF23069D1500A11037 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD07EB230698EB00A11037 /* AppDelegate.swift */,
+				BDBD07ED230698EB00A11037 /* ViewController.swift */,
+				BDA7D2142306D64D00C31733 /* ExplainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDBD080023069D2400A11037 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD07F2230698ED00A11037 /* Assets.xcassets */,
+				BDBD07EF230698EB00A11037 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBD080123069D2D00A11037 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD08022306A16900A11037 /* Question.swift */,
+				BDBD08042306A3C400A11037 /* QuestionBank.swift */,
+				BDBD080D2306BD5900A11037 /* Explain.swift */,
+				BDBD080F2306BE2500A11037 /* ExplainBank.swift */,
+				BDA7D21F2306E49700C31733 /* Sound.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BDBD08062306B89C00A11037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA7D2162306DF9F00C31733 /* Sound Files */,
+				BDBD08092306B8D400A11037 /* ProgressHUD.bundle */,
+				BDBD08082306B8D400A11037 /* ProgressHUD.h */,
+				BDBD080A2306B8D400A11037 /* ProgressHUD.m */,
+				BDBD07F4230698ED00A11037 /* LaunchScreen.storyboard */,
+				BDBD07F7230698ED00A11037 /* Info.plist */,
+				BDBD08072306B8D300A11037 /* Male&Female-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +171,7 @@
 				TargetAttributes = {
 					BDBD07E7230698EB00A11037 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,6 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBD080B2306B8D400A11037 /* ProgressHUD.bundle in Resources */,
+				BDA7D21C2306E43500C31733 /* dung.mp3 in Resources */,
+				BDA7D21A2306E41000C31733 /* sai.mp3 in Resources */,
 				BDBD07F6230698ED00A11037 /* LaunchScreen.storyboard in Resources */,
 				BDBD07F3230698ED00A11037 /* Assets.xcassets in Resources */,
 				BDBD07F1230698EB00A11037 /* Main.storyboard in Resources */,
@@ -135,8 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBD08032306A16900A11037 /* Question.swift in Sources */,
+				BDBD080E2306BD5900A11037 /* Explain.swift in Sources */,
+				BDBD08052306A3C400A11037 /* QuestionBank.swift in Sources */,
+				BDBD080C2306B8D400A11037 /* ProgressHUD.m in Sources */,
 				BDBD07EE230698EB00A11037 /* ViewController.swift in Sources */,
 				BDBD07EC230698EB00A11037 /* AppDelegate.swift in Sources */,
+				BDA7D2152306D64D00C31733 /* ExplainViewController.swift in Sources */,
+				BDA7D2202306E49700C31733 /* Sound.swift in Sources */,
+				BDBD08102306BE2500A11037 /* ExplainBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U85DUXB37V;
 				INFOPLIST_FILE = "Male&Female/Info.plist";
@@ -291,6 +378,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "NeilPhung.Male-Female";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Male&Female/Male&Female-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U85DUXB37V;
 				INFOPLIST_FILE = "Male&Female/Info.plist";
@@ -309,6 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "NeilPhung.Male-Female";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Male&Female/Male&Female-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
